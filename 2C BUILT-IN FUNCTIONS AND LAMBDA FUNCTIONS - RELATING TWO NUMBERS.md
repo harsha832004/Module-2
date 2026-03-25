@@ -19,22 +19,26 @@ To write a Python program to check the relation between two numbers — whether 
 5. Call the lambda function by passing `num1` and `num2` as arguments.  
 6. Terminate the program.
 
----
+
 
 ### PROGRAM
 
-```
 
-```
+a=int(input())
+b=int(input())
+f=lambda a,b: (f"{a} is smaller than {b}")  if a<b else(f"{a} is greater than {b}" if(a>b) else(f"{a} is equal to{b}"))
+print(f(a,b))
+
 
 ### OUTPUT
 
-```
 
-```
+![image](https://github.com/user-attachments/assets/3bf8bdc7-f26e-4d06-8fcc-adebb2998005)
+
 
 ### RESULT
 
-```
 
-```
+Thus the Python program using a lambda function to compare two numbers and display their relation was executed successfully and the output was verified.
+
+
